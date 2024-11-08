@@ -382,34 +382,127 @@ body {
   border-radius: 10rem;
   font-weight: bolder;
 }
-/* Footer */
+
+/* Footer Styles */
 .footer {
-  padding: 20px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  font-size: 14px;
+    background-color: #fff;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Logo */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.logo-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.logo-circle-orange {
+    background-color: #FFA500; /* Orange color */
+}
+
+.logo-circle-light {
+    background-color: #FFE4B5; /* Light peach color */
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links h4 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin: 0.3rem 0;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.soc-icns{
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a:hover {
+  background-color: #ddd;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 1rem;
+  color: #777;
+}
+
+.footer-bottom p {
+  margin: 0;
 }
 
 /* Responsive Styles */
 @media (min-width: 768px) {
-    .nav-links {
-        display: flex;
-        gap: 20px;
-    }
-    .menu-toggle {
-        display: none;
-    }
-    .hero-content h1 {
-        font-size: 36px;
-    }
-    .feature-cards {
-        flex-direction: row;
-    }
-    .features-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-  
-    .yellow-card {
-      grid-column: span 2;
+  .nav-links {
+     display: flex;
+      gap: 20px;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .hero-content h1 {
+    font-size: 36px;
+  }
+  .feature-cards {
+      flex-direction: row;
+  }
+  .features-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .yellow-card {
+    grid-column: span 2;
+  }
 }
