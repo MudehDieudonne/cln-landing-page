@@ -112,6 +112,7 @@ body {
   padding: 20px;
   background-color: #fff;
   text-align: center;
+  margin-bottom: 10rem;
 }
 
 .container {
@@ -275,6 +276,8 @@ body {
   max-width: 900px;
   width: 100%;
   background-color: #e8e7e7;
+  margin-top: 1.7rem;
+  padding-top: 1.5rem;
 }
 
 .testimonials-section h2 {
@@ -386,7 +389,7 @@ body {
 /* Footer Styles */
 .footer {
     background-color: #fff;
-    padding: 2rem 0;
+    padding: 1rem 0;
     font-size: 0.9rem;
 }
 
@@ -425,9 +428,12 @@ body {
 /* Footer Links */
 .footer-links {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  text-align: left;
   justify-content: center;
   gap: 2rem;
+  padding: 1em;
   margin-bottom: 1rem;
 }
 
@@ -505,5 +511,5 @@ body {
   .yellow-card {
     grid-column: span 2;
   }
-  
+
 }
