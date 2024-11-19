@@ -46,6 +46,10 @@ body {
   justify-items: center;
 }
 
+.hero-image{
+  display: none;
+}
+
 .hero-content h1 {
   font-size: 24px;
   text-align:left;
@@ -90,12 +94,6 @@ body {
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
-
-/* .hero-image img {
-  width: 100%;
-  max-width: 300px;
-  margin-top: 20px;
-} */
 
 /* Features Section */
 .greench{
@@ -184,6 +182,7 @@ body {
 .features-section {
   text-align: center;
   max-width: 800px;
+  background-color: white;
 }
 
 .features-section h1 {
