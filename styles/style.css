@@ -116,7 +116,6 @@ body {
 .container {
   font-family: Arial, sans-serif;
   display: flex;
-  flex-grow: calc();
   flex-wrap: wrap;
   align-items: center;
   height: 100vh;
