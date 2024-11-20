@@ -500,12 +500,31 @@ body {
     gap: 20px;
   }
 
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+
   .menu-toggle {
     display: none;
   }
 
+  .hero {
+    display: flex;
+    background-image: none;
+    background-color: #e6e6e6;
+  }
+
+  .hero-image {
+    display: flow-root;
+    object-fit: cover;
+  }
+
   .hero-content h1 {
     font-size: 36px;
+    color: #a5a5a4;
+
   }
 
   .feature-cards {
