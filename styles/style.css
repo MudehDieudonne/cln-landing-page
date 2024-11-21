@@ -520,7 +520,6 @@ body {
   .hero-content h1 {
     font-size: 36px;
     color: #a5a5a4;
-
   }
 
   .features {
@@ -528,11 +527,11 @@ body {
   }
 
   .testimonials-grid {
-  grid-template-columns: 1fr 1fr;
-  padding: 0 9.5em;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 9.5em;
   }
 
-  .panel{
+  .panel {
     min-width: 35%;
   }
 
