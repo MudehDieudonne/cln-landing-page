@@ -527,10 +527,6 @@ body {
     margin-bottom: 5em;
   }
 
-  .feature-cards {
-    
-  }
-
   .testimonials-grid {
   grid-template-columns: 1fr 1fr;
   padding: 0 9.5em;
@@ -556,5 +552,6 @@ body {
 
   .footer-links {
     flex-direction: row;
+    justify-content: space-evenly;
   }
 }
